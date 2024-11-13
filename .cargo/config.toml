@@ -1,0 +1,8 @@
+[build]
+target = "aarch64-unknown-linux-gnu"
+rustflags = ["-C", "target-cpu=neoverse-n1"]
+# rustc --target aarch64-unknown-linux-gnu --print target-cpus | grep neoverse
+# https://en.wikipedia.org/wiki/AWS_Graviton#Graviton2
+# Graviton 2: neoverse-n1
+# Graviton 3: neoverse-v1
+# Graviton 4: neoverse-v2
